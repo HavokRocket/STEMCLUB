@@ -115,6 +115,13 @@ footer h3{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+iframe{
+    border-radius: 10px;
+    border-color: #FCFCFC;
+    border-width: 5px;
+    border-style:double;
+}
+
 @media(max-width: 1030px){
     .section{
         flex-direction: column;

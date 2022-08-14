@@ -101,6 +101,12 @@ h2{
     justify-content: space-evenly;
 }
 
+.list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 footer{
     display: flex;
     justify-content: center;

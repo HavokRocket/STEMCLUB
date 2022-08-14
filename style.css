@@ -1,0 +1,122 @@
+body{
+    background-color: #55062B;
+}
+
+a{
+    text-decoration: none;
+    color: #55062B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+
+}
+
+div{
+    display: flex;
+}
+
+#Header{
+    justify-content: center;
+    background-color: #55062B;
+    align-items: center;
+    padding: 10px;
+}
+
+#Header div{
+    padding: 5px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FCFCFC;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FCFCFC;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+nav div{
+    border-radius: 20px;
+}
+
+nav div:hover{
+    background-color: #55062B;
+    color: #FCFCFC;
+}
+
+div a:hover{
+    color: #FCFCFC;
+}
+
+p{
+    color: #FCFCFC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    color: #FCFCFC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    color: #FCFCFC;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.officer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FCFCFC;
+    border-radius: 20px;
+    color: #55062B;
+    padding: 10px;
+}
+
+.officer h2, .officer p{
+    color: #55062B;
+}
+
+.officer img{
+    border-radius: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #55062B;
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FCFCFC;
+    border-radius: 20px;
+}
+
+footer h3{
+    color: #55062B;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media(max-width: 1030px){
+    .section{
+        flex-direction: column;
+    }
+}

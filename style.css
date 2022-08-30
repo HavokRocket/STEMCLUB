@@ -133,15 +133,15 @@ iframe{
         flex-direction: column;
     }
 
-    iframe{
+    .form{
         width: 350px;
     }
 
-    nav div a{
+    .icon{
         font-size: smaller;
     }
 
-    footer h3{
+    h3{
         font-size: small;
     }
 }

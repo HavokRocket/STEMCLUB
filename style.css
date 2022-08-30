@@ -132,4 +132,16 @@ iframe{
     .section{
         flex-direction: column;
     }
+
+    iframe{
+        width: 350px;
+    }
+
+    nav div a{
+        font-size: smaller;
+    }
+
+    footer h3{
+        font-size: small;
+    }
 }
